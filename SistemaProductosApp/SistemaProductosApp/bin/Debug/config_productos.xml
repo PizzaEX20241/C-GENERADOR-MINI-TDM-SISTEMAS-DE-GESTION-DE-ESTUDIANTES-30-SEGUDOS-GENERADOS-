@@ -1,0 +1,11 @@
+<Configuracion>
+  <Colores>
+    <Fondo>255,0,0,128</Fondo>
+    <DGVFondo>255,255,0,255</DGVFondo>
+    <Agregar>255,0,128,0</Agregar>
+    <Actualizar>255,255,165,0</Actualizar>
+    <Eliminar>255,255,0,0</Eliminar>
+    <Limpiar>255,128,128,128</Limpiar>
+  </Colores>
+  <BorderRadius>30</BorderRadius>
+</Configuracion>

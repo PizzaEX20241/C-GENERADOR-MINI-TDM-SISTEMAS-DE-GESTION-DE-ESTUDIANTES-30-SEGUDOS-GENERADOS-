@@ -1,0 +1,9 @@
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\bin\Debug\SistemaProductosApp.exe
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\bin\Debug\SistemaProductosApp.pdb
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\bin\Debug\MySql.Data.dll
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\bin\Debug\MySql.Data.xml
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\obj\Debug\SistemaProductosApp.csproj.AssemblyReference.cache
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\obj\Debug\SistemaProductosApp.csproj.CoreCompileInputs.cache
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\obj\Debug\SistemaProductosApp.csproj.CopyComplete
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\obj\Debug\SistemaProductosApp.exe
+C:\Users\PizzaEX\Desktop\Nueva carpeta\SistemaProductosApp\SistemaProductosApp\obj\Debug\SistemaProductosApp.pdb
