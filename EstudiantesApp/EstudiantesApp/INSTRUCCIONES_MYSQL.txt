@@ -116,5 +116,5 @@ Este proyecto ha sido generado con soporte para MySQL Connector/NET.
 
 ------------------------------------------------------------
 Proyecto generado automáticamente por Generador Inteligente C#
-Fecha: 2026-01-20 14:19:34
+Fecha: 2026-01-20 15:08:58
 ------------------------------------------------------------
