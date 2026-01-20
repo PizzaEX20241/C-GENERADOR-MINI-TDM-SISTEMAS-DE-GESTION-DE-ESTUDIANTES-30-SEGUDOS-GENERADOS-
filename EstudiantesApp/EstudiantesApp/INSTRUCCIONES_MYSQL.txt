@@ -1,0 +1,120 @@
+INSTRUCCIONES PARA CONFIGURAR MYSQL - EstudiantesApp
+══════════════════════════════════════════════════════════════════
+
+✅ PROYECTO CONFIGURADO PARA MYSQL
+
+Este proyecto ha sido generado con soporte para MySQL Connector/NET.
+
+📦 PAQUETES INSTALADOS:
+• MySql.Data v9.5.0
+
+📁 ARCHIVOS GENERADOS:
+1. MySqlConfig.cs - Clases helper para MySQL
+2. ConnectionExample.cs - Ejemplos de uso
+3. packages.config - Configuración de NuGet
+4. MySql.Data.dll - Copiado a bin\Debug\
+5. MySql.Data.xml - Documentación copiada a bin\Debug\
+
+🚀 PASOS PARA USAR MYSQL:
+
+1. CONFIGURAR LA CADENA DE CONEXIÓN:
+   ---------------------------------
+   Abra el archivo MySqlConfig.cs y modifique la variable 'connectionString':
+   
+   string connectionString = "server=localhost;database=su_base_datos;uid=usuario;pwd=contraseña;port=3306;";
+   
+   Ejemplos:
+   • Localhost con contraseña: "server=localhost;database=mi_db;uid=root;pwd=123456;"
+   • Servidor remoto: "server=192.168.1.100;database=produccion;uid=app_user;pwd=secure_pass;port=3306;"
+
+2. ARCHIVOS MYSQL:
+   ----------------
+   Los siguientes archivos han sido copiados automáticamente:
+   • EstudiantesApp\bin\Debug\MySql.Data.dll
+   • EstudiantesApp\bin\Debug\MySql.Data.xml
+   
+   Si necesita versiones diferentes, reemplace estos archivos.
+
+3. EJEMPLOS DE USO:
+   ----------------
+   a) Conexión simple:
+      using (MySqlConnection conn = DatabaseHelper.GetConnection())
+      {
+          conn.Open();
+          // Tu código aquí
+      }
+   
+   b) Ejecutar consulta:
+      DataTable resultados = DatabaseHelper.ExecuteQuery("SELECT * FROM usuarios");
+   
+   c) Insertar datos:
+      int filasAfectadas = DatabaseHelper.ExecuteNonQuery(
+          "INSERT INTO usuarios (nombre, email) VALUES (@nombre, @email)",
+          new MySqlParameter("@nombre", "Juan"),
+          new MySqlParameter("@email", "juan@email.com")
+      );
+
+4. PRUEBA DE CONEXIÓN:
+   -------------------
+   Puede probar la conexión con:
+   
+   bool conexionExitosa = DatabaseHelper.TestConnection();
+   
+   if (conexionExitosa)
+   {
+       MessageBox.Show("✅ Conexión a MySQL exitosa!");
+   }
+   else
+   {
+       MessageBox.Show("❌ No se pudo conectar a MySQL");
+   }
+
+5. PARA ENTITY FRAMEWORK (si se detectó):
+   --------------------------------------
+   Si el código detectó Entity Framework, asegúrese de:
+   
+   a) Tener instalado MySQL for Visual Studio
+   b) Configurar el DbContext para usar MySQL:
+      
+      public class MiContexto : DbContext
+      {
+          public MiContexto() : base("DefaultConnection") { }
+          
+          public DbSet<Usuario> Usuarios { get; set; }
+          // ... otras DbSet
+      }
+   
+   c) En el App.config o Web.config:
+      
+      <connectionStrings>
+        <add name="DefaultConnection" 
+             connectionString="server=localhost;database=mi_db;uid=root;pwd=123456;"
+             providerName="MySql.Data.MySqlClient" />
+      </connectionStrings>
+
+⚠️  SOLUCIÓN DE PROBLEMAS:
+   • Error "Unable to connect to any of the specified MySQL hosts"
+     → Verifique que MySQL esté ejecutándose
+     → Verifique el nombre del servidor y puerto
+   
+   • Error "Access denied for user"
+     → Verifique usuario y contraseña
+     → Verifique permisos del usuario en MySQL
+   
+   • Error "Unknown database"
+     → La base de datos no existe. Créela en MySQL:
+       CREATE DATABASE nombre_base_datos;
+
+   • Error "Could not load file or assembly 'MySql.Data.dll'"
+     → Asegúrese que MySql.Data.dll está en bin\Debug\
+     → Verifique la versión de .NET Framework (debe ser 4.7.2 o superior)
+
+📚 RECURSOS ADICIONALES:
+   • Documentación MySQL Connector/NET: https://dev.mysql.com/doc/connector-net/en/
+   • Ejemplos de código: Revise ConnectionExample.cs
+   • Descargar MySQL Connector: https://dev.mysql.com/downloads/connector/net/
+
+------------------------------------------------------------
+Proyecto generado automáticamente por Generador Inteligente C#
+Fecha: 2026-01-20 14:19:34
+------------------------------------------------------------

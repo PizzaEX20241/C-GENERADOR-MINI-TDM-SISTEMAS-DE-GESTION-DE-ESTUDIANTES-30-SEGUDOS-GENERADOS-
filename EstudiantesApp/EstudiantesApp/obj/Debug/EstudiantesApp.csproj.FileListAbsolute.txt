@@ -1,0 +1,9 @@
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\bin\Debug\EstudiantesApp.exe
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\bin\Debug\EstudiantesApp.pdb
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\bin\Debug\MySql.Data.dll
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\bin\Debug\MySql.Data.xml
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\obj\Debug\EstudiantesApp.csproj.AssemblyReference.cache
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\obj\Debug\EstudiantesApp.csproj.CoreCompileInputs.cache
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\obj\Debug\EstudiantesApp.csproj.CopyComplete
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\obj\Debug\EstudiantesApp.exe
+C:\Users\PizzaEX\Desktop\Nueva carpeta\EstudiantesApp\EstudiantesApp\obj\Debug\EstudiantesApp.pdb
