@@ -1,0 +1,9 @@
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\bin\Debug\DatabaseManagerApp.exe
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\bin\Debug\DatabaseManagerApp.pdb
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\bin\Debug\MySql.Data.dll
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\bin\Debug\MySql.Data.xml
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\obj\Debug\DatabaseManagerApp.csproj.AssemblyReference.cache
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\obj\Debug\DatabaseManagerApp.csproj.CoreCompileInputs.cache
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\obj\Debug\DatabaseManagerApp.csproj.CopyComplete
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\obj\Debug\DatabaseManagerApp.exe
+C:\Users\PizzaEX\Desktop\Nueva carpeta\DatabaseManagerApp\DatabaseManagerApp\obj\Debug\DatabaseManagerApp.pdb
