@@ -1,0 +1,9 @@
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\obj\Debug\BatteryMonitorHP.csproj.AssemblyReference.cache
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\obj\Debug\BatteryMonitorHP.csproj.CoreCompileInputs.cache
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\bin\Debug\BatteryMonitorHP.exe
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\bin\Debug\BatteryMonitorHP.pdb
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\bin\Debug\MySql.Data.dll
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\bin\Debug\MySql.Data.xml
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\obj\Debug\BatteryMonitorHP.csproj.CopyComplete
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\obj\Debug\BatteryMonitorHP.exe
+C:\Users\PizzaEX\Desktop\BatteryMonitorHP\BatteryMonitorHP\obj\Debug\BatteryMonitorHP.pdb
